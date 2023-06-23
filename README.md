@@ -15,18 +15,14 @@ GitHub Repository1: https://github.com/google-research/simclr
 
 GitHub Repository2: https://github.com/dewenzeng/positional_cl
 
-I used 2D UNet to deal with 2D slices derduring traing time and do the extended the 2D network into the 3D network to deal with Overall Survival (OS) classification of patients with Primary Central Neural System Lymphoma (PSNSL) using 3D Magnetic Resonance Imaging (MRI). 
+I used 2D UNet to deal with 2D input slicing from original 3D images during training, then I spliced the corresponding 2D slices together to a 3D volume for each 3D image during inference. For loss function, I chose the data augmentation contrastive loss (Paper1) and the positional contrastive loss (Paper2).
 
- 
-Sorry for bother you. I was trying to modify the segmentation model. Our first goal is to segment different organs in the abdominal area.
- 
-For the input, the original images are 3D images. 
-For the model, I choose 2D UNET to deal with the 2D slices and then during the inference time, I splice all the 2d slices together to a 3D volume.
-For the loss, I choose the similar loss as the contrastive loss in the SimCLR paper.
- 
+Qualitative Result:
+
+https://github.com/SheZiyu/ContrastLearning-in-Segmentation/assets/98766434/15dc3c22-0cd8-4da7-a71f-19d63fa11cbe
+
 But as you can see, the alignment of the top images (original images) and the bottom images (segmentation results of the model) is not good, seems the segmentation is zoomed out by the model. 
  
-Do you have any idea to improve it?
- 
-Thanks so much!
+
+
 
