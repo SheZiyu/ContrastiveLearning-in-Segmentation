@@ -323,28 +323,6 @@ if __name__ == '__main__':
 
 
 
-# 改进infer/mode/改进上面的
-# cvpr和eccv挑战
-# 深度估计 多模态
-#note111/mask reconstruction/guassian noise/guassian_importance_map
-#latent space how to extract latent vector and change latent vector flop params
-# 实习，宽德 美国 聪明的投资者投资 /top几acc/
-#/inference time /inference flop/inference mean/inference error
-#monai处理方式、monai的gpu  /双GPC
-#https://cloud.tencent.com/developer/article/1656125
-#https://www.frontiersin.org/articles/10.3389/fnins.2022.832824/full
-#opencv/视频处理/demo/实习、opencv可视化/python#pycharm+jupyter
-# teacher / student/模仿学习、增强学习 zeroshot
-# registration/ict/federated_learning
-# data efficiency
-# mesh#pip install numpy-stl/mesh
-# parse/双gpu/网络的层数(特征向量)
-#plt.hist()#plt.imshow
-#detection/yolo-2d/yolo-3d
-
-
-
-
 
 
 
