@@ -305,25 +305,6 @@ if __name__ == '__main__':
 
 
 
-#from data.utils import *
-#from utils import *
-#pip install numpy-stl
-#pip install mesh
-#data efficiency compared with supervised learning
-#train 要变化名字嘛#000变成0000
-# image submission
-# paper submission
-# docker submission
-# task1 task2、
-#加上transfer
-#train 20gGPU batch_size=32 infer 20gGPU batch_size=64 learning rate = cos(10e-3---10e-5)
-#加个baseline从一开始就比较dice(cossvalid2too)
-#unet/transformer  or unetr
-#mesh
-##########################################imbalance/focalloss#######################################
-
-
-
 
 
 
