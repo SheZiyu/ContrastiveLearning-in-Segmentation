@@ -1,9 +1,8 @@
 # ContrastLearning-in-Segmentation
 
-This is my practice for Grand Challenge AMOS 2022, which is about the challenging task multi-organ (15 abdominal organs) segmentation. https://amos22.grand-challenge.org/
+This is my practice for Grand Challenge AMOS 2022, which is about the challenging task of multi-organ (15 abdominal organs) segmentation. https://amos22.grand-challenge.org/
 
 The code is derived from the following papers and GitHub repositories:
-
 
 ![image](https://github.com/SheZiyu/ContrastLearning-in-Segmentation/assets/98766434/2cd0d575-b27b-4e4d-a633-2ab9ad7930a2)
 
@@ -17,11 +16,12 @@ GitHub Repository2: https://github.com/dewenzeng/positional_cl
 
 I used 2D UNet to deal with 2D input slicing from original 3D images during training, then I spliced the corresponding 2D slices together to a 3D volume for each 3D image during inference. For loss function, I chose the data augmentation contrastive loss (Paper1) and the positional contrastive loss (Paper2).
 
-Qualitative Result:
+Qualitative Result: The top image is the original 3D image viewing from x, y and z-axis. The bottom image is the corresponding segmentation result of the model.
 
 https://github.com/SheZiyu/ContrastLearning-in-Segmentation/assets/98766434/15dc3c22-0cd8-4da7-a71f-19d63fa11cbe
 
-But as you can see, the alignment of the top images (original images) and the bottom images (segmentation results of the model) is not good, seems the segmentation is zoomed out by the model. 
+ 
+ 
  
 
 
