@@ -1,6 +1,6 @@
 # ContrastiveLearning-in-Segmentation
 
-This is my practice for Grand Challenge AMOS 2022, which is about the challenging task of multi-organ (15 abdominal organs) segmentation. https://amos22.grand-challenge.org/
+This is my practice for Grand Challenge AMOS 2022, which is about the challenging task of abdominal multi-organ (15 abdominal organs) segmentation. https://amos22.grand-challenge.org/
 
 The code is derived from the following papers and GitHub repositories:
 
